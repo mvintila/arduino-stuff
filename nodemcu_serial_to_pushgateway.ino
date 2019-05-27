@@ -1,8 +1,8 @@
 #include "ESP8266WiFi.h"
 #include <ESP8266HTTPClient.h>
 
-  const char* ssid     = "ampmeter";
-  const char* password = "passc0de333";
+  const char* ssid     = "accessping";
+  const char* password = "password";
   int wifiStatus;
   int wifiStatusPrev = 0;
   HTTPClient httpclient;
